@@ -31,7 +31,7 @@ export const todosSlice = createSlice({
     },
   },
   reducers: {
-    // Backend Öncesi
+    // Before Backend
     // addTodo: {
     //   reducer: (state, action) => {
     //     state.items.push(action.payload);
@@ -51,7 +51,7 @@ export const todosSlice = createSlice({
       const item = state.items.find((item) => item.id === id);
       item.completed = !item.completed;
     },
-    // Backend Öncesi
+    // Before Backend
     // destroy: (state, action) => {
     //   const id = action.payload;
     //   const filtered = state.items.filter((item) => item.id !== id);
